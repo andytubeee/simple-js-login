@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Simple Login</title>
 </head>
+
 <body>
-    Hello World
+    <div style="display: inline-block; margin: auto;
+    width: 50%;
+    padding: 10px;">
+        <div class="">Username: <input type="text" id="txtUsername"></div>
+        <div class="" style="margin-top: 10px;">Password: <input type="password" style="margin-left: 3.7px;"
+                id="txtPassword"></div>
+        <button
+            style="width: 100px; height: 40px; font-size: 20px; margin-top: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-left: 135px;"
+            id="btnLogin" onclick="login()">Login</button>
+    </div>
 </body>
+
+<script src="app.js"></script>
+
 </html>
